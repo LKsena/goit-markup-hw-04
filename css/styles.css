@@ -54,9 +54,10 @@ body {
 }
 
 /*   Header   */
-
+                /*    1 пункт Header     */
 .page-header {
     border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); 
 }
 
 .header-box {
@@ -103,6 +104,7 @@ body {
     color: #404BBF;
 }
 
+                    /*    2 пункт Header     */
 .contacts {
     font-style: normal;
 }
@@ -113,6 +115,7 @@ body {
 }
 
 .contacts-link {
+    text-decoration: none;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -136,6 +139,14 @@ body {
 .hero {
     background-color: #2e2f42;
     padding: 188px 0;
+}
+
+.fero-box {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/fonhero.jpg);
+    max-width: 1440px; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
 }
 
 .page-hero {
