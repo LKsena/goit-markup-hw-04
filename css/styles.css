@@ -243,6 +243,10 @@ feature-item:nth-child(4n){
     margin-right: 0;
 }
 
+.feature-page {
+    padding: 32px 0;
+    background-color: #F4F4FD; 
+}
 
 /*   Sectione 3 Our Team  */
 
